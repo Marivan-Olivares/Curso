@@ -11,3 +11,48 @@
     p {
         color:blueviolet;
     }
+
+    /* classes */
+
+    .paragraph {
+        background-color:black;
+        color: aqua;
+        padding: 5px;
+
+    }
+    /* IDs */
+    #exclusive-title {
+        background-color: brown;
+        color:white;
+        padding: 10px;
+
+    }
+
+    /*Ordem das Regras - tag>class>ID*/
+
+    h2{
+        border-bottom: 2px solid red;
+
+    }
+
+    .titulo{
+        border-bottom: 3px solid blue;
+    }
+
+    #algum-titulo{
+
+        border-bottom: 4px solid green;
+    }
+
+    /*Nome de cores( CTRL + Espaço*/
+
+    .color-name{
+
+        color:rgb(82, 125, 243);
+
+    }
+    /*Hex*/
+    .hex{
+        color: aquamarine;
+
+    }
